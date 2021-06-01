@@ -3228,3 +3228,15 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.06.01-14.32.47:394][216]LogSavePackage: Moving 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Saved/ThirdPersonExampleMap_Auto49AB942D0485918CB423427BC429A0E77.tmp' to 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
 [2021.06.01-14.32.47:395][216]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.101
 [2021.06.01-14.32.47:395][216]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.101
+[2021.06.01-14.35.42:040][388]BlueprintLog: New page: Compile WBP_EndofLevel
+[2021.06.01-14.35.42:089][388]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2021.06.01-14.35.42:611][420]LogSavePackage: Moving 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Saved/WBP_EndofLevelEB3904D643D2D6053774FE8F7BE4AEE5.tmp' to 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Content/ThirdPersonBP/UserInterface/EndofLevel/WBP_EndofLevel.uasset'
+[2021.06.01-14.35.42:623][420]AssetCheck: New page: Asset Save: WBP_EndofLevel
+[2021.06.01-14.35.42:623][420]LogContentValidation: Display: Validating WidgetBlueprint /Game/ThirdPersonBP/UserInterface/EndofLevel/WBP_EndofLevel.WBP_EndofLevel
+[2021.06.01-14.36.23:028][ 28]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.06.01-14.36.23:028][ 28]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2021.06.01-14.41.07:413][204]BlueprintLog: New page: Compile WBP_EndofLevel
+[2021.06.01-14.41.07:483][204]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2021.06.01-14.41.07:935][231]LogSavePackage: Moving 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Saved/WBP_EndofLevelA77CAC004F8CF1DFF9D07994A47E440E.tmp' to 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Content/ThirdPersonBP/UserInterface/EndofLevel/WBP_EndofLevel.uasset'
+[2021.06.01-14.41.07:947][231]AssetCheck: New page: Asset Save: WBP_EndofLevel
+[2021.06.01-14.41.07:947][231]LogContentValidation: Display: Validating WidgetBlueprint /Game/ThirdPersonBP/UserInterface/EndofLevel/WBP_EndofLevel.WBP_EndofLevel
