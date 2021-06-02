@@ -5988,3 +5988,654 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.06.02-14.30.16:940][593]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2021.06.02-14.30.16:940][593]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
 [2021.06.02-14.30.16:940][593]LogContentValidation: Display: Validating WidgetBlueprint /Game/ThirdPersonBP/UserInterface/EndofLevel/WBP_EndofLevel.WBP_EndofLevel
+[2021.06.02-14.36.40:842][351]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2021.06.02-14.39.37:065][999]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.06.02-14.39.37:126][999]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.06.02-14.39.39:262][125]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2021.06.02-14.39.39:268][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.02-14.39.39:268][125]PIE: New page: PIE session: ThirdPersonExampleMap (2 Jun 2021, 16:39:39)
+[2021.06.02-14.39.39:268][125]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.06.02-14.39.39:310][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042127s)
+[2021.06.02-14.39.39:311][125]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.06.02-14.39.39:311][125]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2021.06.02-14.39.39:311][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.043359s)
+[2021.06.02-14.39.39:336][125]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.06.02-14.39.39:340][125]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2021.06.02-14.39.39:340][125]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.02-14.39.39:340][125]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.02-14.39.39:340][125]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.02-14.39.39:340][125]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.02-14.39.39:340][125]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.02-14.39.39:340][125]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.02-14.39.39:340][125]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.02-14.39.39:340][125]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.02-14.39.39:340][125]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.02-14.39.39:340][125]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.02-14.39.39:344][125]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.02-14.39.39:344][125]LogAudioMixer: Display: 1: FrontRight
+[2021.06.02-14.39.39:353][125]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.06.02-14.39.39:353][125]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.02-14.39.39:353][125]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.02-14.39.39:353][125]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.02-14.39.39:353][125]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.02-14.39.39:353][125]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.02-14.39.39:354][125]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.02-14.39.39:354][125]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.02-14.39.39:354][125]LogInit: FAudioDevice initialized.
+[2021.06.02-14.39.39:354][125]LogAudio: Display: Audio Device (ID: 51) registered with world 'ThirdPersonExampleMap'.
+[2021.06.02-14.39.39:386][125]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-14.39.39:387][125]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.06.02-14.39.39:394][125]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.06.02-15.39.39
+[2021.06.02-14.39.39:395][125]LogWorld: Bringing up level for play took: 0.008270
+[2021.06.02-14.39.39:395][125]LogOnline: OSS: Creating online subsystem instance for: :Context_72
+[2021.06.02-14.39.39:400][125]PIE: Server logged in
+[2021.06.02-14.39.39:402][125]PIE: Play in editor total start time 0.136 seconds.
+[2021.06.02-14.39.40:206][149]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.40:524][161]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.39.40:576][163]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.39.40:631][165]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.39.40:710][168]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.41:042][180]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.39.41:098][182]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.39.41:152][184]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.39.41:235][187]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.41:567][199]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.39.41:622][201]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.39.41:677][203]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.39.41:759][206]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.42:091][218]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.39.42:202][222]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.39.42:287][225]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.42:616][237]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.39.42:672][239]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.39.42:727][241]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.39.42:810][244]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.43:192][258]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.39.43:328][263]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.43:654][275]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.39.44:166][294]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.39.44:356][301]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.44:881][321]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.45:189][333]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.39.45:398][341]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.45:811][357]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.39.46:949][401]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.47:871][437]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.39.47:977][441]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.48:395][457]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.39.49:023][481]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.49:337][493]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.39.50:420][536]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.39.50:568][542]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.50:990][559]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.39.51:089][563]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.51:385][575]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.39.51:886][595]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.39.52:013][600]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.39.52:397][615]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.39.52:625][624]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.39.56:972][787]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-14.39.56:972][787]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.06.02-14.39.56:972][787]LogSlate: Window 'PatchaUE5V2021 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.06.02-14.39.56:977][787]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.02-14.39.56:978][787]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.02-14.39.57:000][787]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.02-14.39.57:009][787]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.02-14.39.57:032][787]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.02-14.39.57:032][787]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.02-14.39.57:033][787]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.02-14.39.57:041][787]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.06.02-14.39.57:071][787]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.06.02-14.39.57:086][788]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2021.06.02-14.40.55:400][579]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.06.02-14.40.55:453][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.06.02-14.40.55:934][602]LogSavePackage: Moving 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Saved/ThirdPersonCharacter901CD4A5415D55E666CB6DA1C93E2FD5.tmp' to 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.06.02-14.40.55:946][602]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.06.02-14.40.55:946][602]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.06.02-14.40.58:903][774]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2021.06.02-14.40.58:909][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.02-14.40.58:909][774]PIE: New page: PIE session: ThirdPersonExampleMap (2 Jun 2021, 16:40:58)
+[2021.06.02-14.40.58:910][774]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.06.02-14.40.58:950][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040214s)
+[2021.06.02-14.40.58:951][774]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.06.02-14.40.58:951][774]LogPlayLevel: PIE: World Init took: (0.001220s)
+[2021.06.02-14.40.58:951][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.041577s)
+[2021.06.02-14.40.58:978][774]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.06.02-14.40.58:982][774]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2021.06.02-14.40.58:982][774]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.02-14.40.58:982][774]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.02-14.40.58:982][774]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.02-14.40.58:982][774]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.02-14.40.58:982][774]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.02-14.40.58:982][774]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.02-14.40.58:982][774]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.02-14.40.58:982][774]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.02-14.40.58:982][774]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.02-14.40.58:982][774]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.02-14.40.58:986][774]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.02-14.40.58:986][774]LogAudioMixer: Display: 1: FrontRight
+[2021.06.02-14.40.58:993][774]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.06.02-14.40.58:993][774]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.02-14.40.58:994][774]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.02-14.40.58:994][774]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.02-14.40.58:994][774]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.02-14.40.58:994][774]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.02-14.40.58:995][774]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.02-14.40.58:995][774]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.02-14.40.58:995][774]LogInit: FAudioDevice initialized.
+[2021.06.02-14.40.58:995][774]LogAudio: Display: Audio Device (ID: 52) registered with world 'ThirdPersonExampleMap'.
+[2021.06.02-14.40.59:034][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-14.40.59:034][774]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.06.02-14.40.59:041][774]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.06.02-15.40.59
+[2021.06.02-14.40.59:043][774]LogWorld: Bringing up level for play took: 0.008438
+[2021.06.02-14.40.59:043][774]LogOnline: OSS: Creating online subsystem instance for: :Context_73
+[2021.06.02-14.40.59:047][774]PIE: Server logged in
+[2021.06.02-14.40.59:048][774]PIE: Play in editor total start time 0.142 seconds.
+[2021.06.02-14.41.00:180][811]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.41.00:696][830]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.41.00:696][830]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.01:209][849]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.01:209][849]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.41.01:728][868]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.41.01:728][868]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.02:246][887]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.02:246][887]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.41.02:766][906]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.03:282][925]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.03:800][944]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.03:800][944]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.04:325][964]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.08:543][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-14.41.08:543][127]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.06.02-14.41.08:543][127]LogSlate: Window 'PatchaUE5V2021 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.06.02-14.41.08:548][127]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.02-14.41.08:549][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.02-14.41.08:564][127]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.02-14.41.08:572][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.02-14.41.08:594][127]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.02-14.41.08:595][127]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.02-14.41.08:596][127]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.02-14.41.08:603][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.06.02-14.41.08:631][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.06.02-14.41.08:661][128]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2021.06.02-14.41.22:474][253]LogSavePackage: Moving 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Saved/ThirdPersonCharacter013D586D43B83B050995D19CFC861F98.tmp' to 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.06.02-14.41.22:484][253]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.06.02-14.41.22:484][253]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.06.02-14.41.23:246][303]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.06.02-14.41.23:297][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.06.02-14.41.25:118][415]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2021.06.02-14.41.25:124][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.02-14.41.25:124][415]PIE: New page: PIE session: ThirdPersonExampleMap (2 Jun 2021, 16:41:25)
+[2021.06.02-14.41.25:125][415]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.06.02-14.41.25:164][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039704s)
+[2021.06.02-14.41.25:165][415]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.06.02-14.41.25:166][415]LogPlayLevel: PIE: World Init took: (0.001127s)
+[2021.06.02-14.41.25:166][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040988s)
+[2021.06.02-14.41.25:204][415]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.06.02-14.41.25:206][415]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2021.06.02-14.41.25:206][415]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.02-14.41.25:206][415]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.02-14.41.25:206][415]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.02-14.41.25:206][415]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.02-14.41.25:206][415]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.02-14.41.25:206][415]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.02-14.41.25:206][415]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.02-14.41.25:206][415]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.02-14.41.25:207][415]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.02-14.41.25:207][415]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.02-14.41.25:210][415]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.02-14.41.25:210][415]LogAudioMixer: Display: 1: FrontRight
+[2021.06.02-14.41.25:217][415]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.06.02-14.41.25:218][415]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.02-14.41.25:218][415]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.02-14.41.25:218][415]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.02-14.41.25:218][415]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.02-14.41.25:218][415]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.02-14.41.25:219][415]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.02-14.41.25:219][415]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.02-14.41.25:219][415]LogInit: FAudioDevice initialized.
+[2021.06.02-14.41.25:219][415]LogAudio: Display: Audio Device (ID: 53) registered with world 'ThirdPersonExampleMap'.
+[2021.06.02-14.41.25:267][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-14.41.25:268][415]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.06.02-14.41.25:274][415]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.06.02-15.41.25
+[2021.06.02-14.41.25:276][415]LogWorld: Bringing up level for play took: 0.007888
+[2021.06.02-14.41.25:276][415]LogOnline: OSS: Creating online subsystem instance for: :Context_74
+[2021.06.02-14.41.25:280][415]PIE: Server logged in
+[2021.06.02-14.41.25:281][415]PIE: Play in editor total start time 0.159 seconds.
+[2021.06.02-14.41.25:904][433]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.25:904][433]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.26:414][452]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.41.26:414][452]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.26:415][452]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.26:441][453]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.41.26:926][471]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.26:926][471]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.26:926][471]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.41.26:952][472]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.41.27:440][490]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.41.27:440][490]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.27:440][490]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.27:465][491]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.41.27:957][509]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.27:957][509]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.27:957][509]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.41.27:984][510]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.41.28:475][528]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.41.28:475][528]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.28:475][528]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.28:992][547]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.29:019][548]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.41.29:505][566]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.29:505][566]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.29:531][567]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.41.30:013][585]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.30:013][585]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.30:013][585]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.41.30:040][586]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.41.30:521][604]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.41.30:521][604]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.31:033][623]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.31:033][623]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.41.31:061][624]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.41.31:534][642]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.41.31:534][642]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.32:055][662]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.41.32:055][662]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.32:055][662]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.41.32:108][664]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.41.33:585][722]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.34:087][742]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.41.41:332][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-14.41.41:332][ 20]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.06.02-14.41.41:332][ 20]LogSlate: Window 'PatchaUE5V2021 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.06.02-14.41.41:336][ 20]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.02-14.41.41:337][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.02-14.41.41:348][ 20]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.02-14.41.41:356][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.02-14.41.41:380][ 20]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.02-14.41.41:380][ 20]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.02-14.41.41:381][ 20]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.02-14.41.41:388][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.06.02-14.41.41:416][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.06.02-14.41.41:443][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2021.06.02-14.43.18:833][338]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.06.02-14.43.18:841][338]LogBlueprint: Error: [AssetLog] C:\Users\enthu\Documents\GitHub\Patchas-Big-Adventure-V1.1\Patcha Sumer 2021 UE5\PatchaUE5V2021\Content\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] The current value of the ' Event ' pin is invalid: Unsupported type Delegate on pin Delegate
+[2021.06.02-14.43.18:886][338]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.06.02-14.43.19:279][355]LogSavePackage: Moving 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Saved/ThirdPersonCharacter87CBF7444382E6A7C30EA0A9FDDEF933.tmp' to 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.06.02-14.43.19:290][355]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.06.02-14.43.19:290][355]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.06.02-14.43.19:810][388]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.06.02-14.43.19:817][388]LogBlueprint: Error: [AssetLog] C:\Users\enthu\Documents\GitHub\Patchas-Big-Adventure-V1.1\Patcha Sumer 2021 UE5\PatchaUE5V2021\Content\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] The current value of the ' Event ' pin is invalid: Unsupported type Delegate on pin Delegate
+[2021.06.02-14.43.19:861][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.06.02-14.43.19:969][392]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.06.02-14.43.19:977][392]LogBlueprint: Error: [AssetLog] C:\Users\enthu\Documents\GitHub\Patchas-Big-Adventure-V1.1\Patcha Sumer 2021 UE5\PatchaUE5V2021\Content\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] The current value of the ' Event ' pin is invalid: Unsupported type Delegate on pin Delegate
+[2021.06.02-14.43.20:021][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.06.02-14.43.20:102][395]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.06.02-14.43.20:108][395]LogBlueprint: Error: [AssetLog] C:\Users\enthu\Documents\GitHub\Patchas-Big-Adventure-V1.1\Patcha Sumer 2021 UE5\PatchaUE5V2021\Content\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] The current value of the ' Event ' pin is invalid: Unsupported type Delegate on pin Delegate
+[2021.06.02-14.43.20:152][395]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.06.02-14.43.56:594][572]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.06.02-14.43.56:647][572]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.06.02-14.43.57:345][607]LogSavePackage: Moving 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Saved/ThirdPersonCharacter8FC82A0B4471DEB8731DDBBF9A9A1DFB.tmp' to 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.06.02-14.43.57:356][607]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.06.02-14.43.57:356][607]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.06.02-14.43.59:322][722]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2021.06.02-14.43.59:328][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.02-14.43.59:328][722]PIE: New page: PIE session: ThirdPersonExampleMap (2 Jun 2021, 16:43:59)
+[2021.06.02-14.43.59:328][722]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.06.02-14.43.59:370][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041403s)
+[2021.06.02-14.43.59:371][722]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.06.02-14.43.59:371][722]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2021.06.02-14.43.59:371][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.042807s)
+[2021.06.02-14.43.59:398][722]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.06.02-14.43.59:401][722]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2021.06.02-14.43.59:401][722]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.02-14.43.59:401][722]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.02-14.43.59:401][722]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.02-14.43.59:401][722]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.02-14.43.59:401][722]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.02-14.43.59:401][722]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.02-14.43.59:401][722]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.02-14.43.59:401][722]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.02-14.43.59:402][722]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.02-14.43.59:402][722]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.02-14.43.59:405][722]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.02-14.43.59:405][722]LogAudioMixer: Display: 1: FrontRight
+[2021.06.02-14.43.59:413][722]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.06.02-14.43.59:413][722]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.02-14.43.59:413][722]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.02-14.43.59:414][722]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.02-14.43.59:414][722]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.02-14.43.59:414][722]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.02-14.43.59:415][722]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.02-14.43.59:415][722]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.02-14.43.59:415][722]LogInit: FAudioDevice initialized.
+[2021.06.02-14.43.59:415][722]LogAudio: Display: Audio Device (ID: 54) registered with world 'ThirdPersonExampleMap'.
+[2021.06.02-14.43.59:466][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-14.43.59:466][722]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.06.02-14.43.59:473][722]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.06.02-15.43.59
+[2021.06.02-14.43.59:475][722]LogWorld: Bringing up level for play took: 0.008269
+[2021.06.02-14.43.59:475][722]LogOnline: OSS: Creating online subsystem instance for: :Context_75
+[2021.06.02-14.43.59:479][722]PIE: Server logged in
+[2021.06.02-14.43.59:481][722]PIE: Play in editor total start time 0.155 seconds.
+[2021.06.02-14.43.59:749][727]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.00:249][744]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.00:441][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-14.44.00:441][749]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.06.02-14.44.00:442][749]LogSlate: Window 'PatchaUE5V2021 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.06.02-14.44.00:447][749]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.02-14.44.00:448][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.02-14.44.00:458][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.02-14.44.00:466][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.02-14.44.00:489][749]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.02-14.44.00:489][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.02-14.44.00:490][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.02-14.44.00:497][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.06.02-14.44.00:523][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.06.02-14.44.00:546][750]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2021.06.02-14.44.05:813][ 28]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.06.02-14.44.05:865][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.06.02-14.44.06:377][ 52]LogSavePackage: Moving 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Saved/ThirdPersonCharacter1D06EEED47558270BFBDBDA33D39A612.tmp' to 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.06.02-14.44.06:389][ 52]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.06.02-14.44.06:389][ 52]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.06.02-14.44.07:978][148]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2021.06.02-14.44.07:985][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.02-14.44.07:985][148]PIE: New page: PIE session: ThirdPersonExampleMap (2 Jun 2021, 16:44:07)
+[2021.06.02-14.44.07:985][148]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.06.02-14.44.08:028][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043164s)
+[2021.06.02-14.44.08:029][148]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.06.02-14.44.08:029][148]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2021.06.02-14.44.08:029][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.044313s)
+[2021.06.02-14.44.08:054][148]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.06.02-14.44.08:057][148]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2021.06.02-14.44.08:057][148]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.02-14.44.08:057][148]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.02-14.44.08:057][148]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.02-14.44.08:057][148]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.02-14.44.08:057][148]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.02-14.44.08:057][148]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.02-14.44.08:057][148]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.02-14.44.08:057][148]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.02-14.44.08:057][148]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.02-14.44.08:057][148]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.02-14.44.08:061][148]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.02-14.44.08:061][148]LogAudioMixer: Display: 1: FrontRight
+[2021.06.02-14.44.08:069][148]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.06.02-14.44.08:069][148]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.02-14.44.08:069][148]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.02-14.44.08:069][148]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.02-14.44.08:070][148]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.02-14.44.08:070][148]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.02-14.44.08:070][148]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.02-14.44.08:070][148]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.02-14.44.08:070][148]LogInit: FAudioDevice initialized.
+[2021.06.02-14.44.08:070][148]LogAudio: Display: Audio Device (ID: 55) registered with world 'ThirdPersonExampleMap'.
+[2021.06.02-14.44.08:113][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-14.44.08:114][148]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.06.02-14.44.08:122][148]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.06.02-15.44.08
+[2021.06.02-14.44.08:123][148]LogWorld: Bringing up level for play took: 0.009518
+[2021.06.02-14.44.08:124][148]LogOnline: OSS: Creating online subsystem instance for: :Context_76
+[2021.06.02-14.44.08:128][148]PIE: Server logged in
+[2021.06.02-14.44.08:129][148]PIE: Play in editor total start time 0.148 seconds.
+[2021.06.02-14.44.08:360][152]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.08:837][168]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.08:864][169]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.09:272][184]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.09:357][187]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.09:384][188]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.09:773][202]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.09:857][205]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.09:910][207]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.10:299][221]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.10:389][224]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.10:412][225]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.10:812][239]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.10:897][242]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.10:927][243]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.11:351][258]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.11:438][261]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.11:922][278]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.11:951][279]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.12:375][294]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.12:460][297]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.12:850][311]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.12:877][312]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.12:932][314]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.12:987][316]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.13:356][329]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.13:383][330]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.13:440][332]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.13:496][334]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.13:859][347]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.13:942][350]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.14:000][352]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.14:361][365]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.14:389][366]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.14:446][368]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.14:503][370]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.14:864][383]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.14:891][384]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.14:946][386]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.15:029][389]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.15:371][401]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.15:401][402]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.15:461][404]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.15:553][407]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.15:891][418]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.15:922][419]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.15:984][421]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.16:088][424]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.16:397][434]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.16:427][435]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.16:492][437]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.16:614][441]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.16:922][451]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.16:953][452]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.17:016][454]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.17:140][458]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.17:445][468]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.17:474][469]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.17:533][471]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.17:649][475]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.17:944][485]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.17:974][486]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.18:034][488]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.18:151][492]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.18:474][503]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.18:502][504]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.18:561][506]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.18:680][510]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.18:998][521]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.19:026][522]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.19:083][524]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.19:196][528]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.19:507][539]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.19:591][542]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.19:704][546]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.20:011][557]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.20:094][560]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.20:206][564]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.20:513][575]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.20:598][578]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.20:711][582]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.21:020][593]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.21:105][596]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.21:217][600]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.21:526][611]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.21:610][614]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.21:723][618]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.22:029][629]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.22:114][632]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.22:224][636]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.22:556][648]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.22:583][649]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.22:638][651]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.22:750][655]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.23:057][666]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.23:086][667]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.23:142][669]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.23:256][673]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.23:563][683]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.23:594][684]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.23:784][690]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.24:077][699]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.24:111][700]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.24:181][702]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.24:319][706]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.24:603][714]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.24:853][721]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.25:236][733]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.25:355][737]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.25:755][751]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.25:872][755]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.26:170][765]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.26:391][772]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.26:693][781]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.26:899][787]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.27:220][796]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.27:406][801]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.27:734][810]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.27:801][812]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.27:914][816]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.28:246][827]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.28:312][829]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.28:442][833]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.28:838][845]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.28:969][849]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.29:800][874]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.29:864][876]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.30:003][880]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.31:044][911]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.32:577][960]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.34:140][ 14]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.35:183][ 47]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.35:691][ 61]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.36:217][ 75]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.36:723][ 89]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.37:238][107]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.37:561][119]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.37:756][126]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.38:067][137]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.38:262][144]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.38:592][156]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.38:785][163]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.39:300][182]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.39:634][193]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.39:813][199]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.40:159][210]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.40:320][215]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.40:675][226]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.40:838][231]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.41:357][247]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.41:863][262]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.42:371][276]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.42:869][289]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.43:401][303]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.43:926][317]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.44:381][329]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.44:457][331]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.44:914][343]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.44:989][345]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.45:447][357]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.45:523][359]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.45:974][371]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.46:049][373]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.46:495][385]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.46:569][387]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.47:087][401]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.47:526][413]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.47:526][413]LogBlueprintUserMessages: [Ai_Base_C_3] gotch ya
+[2021.06.02-14.44.48:632][443]LogBlueprintUserMessages: [Ai_Base_C_7] gotch ya
+[2021.06.02-14.44.49:076][455]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.49:076][455]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.49:599][469]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.49:599][469]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.50:135][484]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.50:135][484]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.50:644][499]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.50:644][499]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.51:161][515]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.51:161][515]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.51:678][532]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.51:678][532]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.52:198][549]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.52:198][549]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.52:710][566]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.52:710][566]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.53:218][583]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.53:218][583]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.53:725][600]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.53:725][600]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.54:227][617]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.54:227][617]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.54:731][634]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.54:731][634]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.55:235][651]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.55:740][668]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.44.56:254][685]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.44.57:274][719]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.01:367][854]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.01:871][870]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.02:398][887]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.02:398][887]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.02:929][903]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.02:929][903]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.03:441][917]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.03:441][917]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.03:951][930]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.04:451][942]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.04:451][942]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.04:959][954]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.04:959][954]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.05:494][967]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.05:494][967]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.06:022][980]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.06:023][980]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.06:541][993]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.06:541][993]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.07:053][  9]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.07:053][  9]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.07:574][ 28]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.07:574][ 28]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.08:089][ 47]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.08:089][ 47]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.08:603][ 67]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.08:603][ 67]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.09:113][ 87]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.09:113][ 87]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.09:623][107]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.09:623][107]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.10:130][127]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.10:130][127]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.10:638][146]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.10:638][146]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.11:151][165]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.11:151][165]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.11:668][182]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.11:668][182]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.12:191][198]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.12:191][198]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.12:704][214]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.12:704][214]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.13:731][250]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.13:731][250]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.14:239][269]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.14:239][269]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.14:765][289]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.14:765][289]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.16:329][348]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.16:329][348]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.16:834][367]LogBlueprintUserMessages: [Ai_Base_C_9] gotch ya
+[2021.06.02-14.45.16:835][367]LogBlueprintUserMessages: [Ai_Base_C_5] gotch ya
+[2021.06.02-14.45.17:162][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.02-14.45.17:162][376]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.06.02-14.45.17:162][376]LogSlate: Window 'PatchaUE5V2021 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.06.02-14.45.17:166][376]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.02-14.45.17:168][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.02-14.45.17:184][376]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.02-14.45.17:191][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.02-14.45.17:215][376]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.02-14.45.17:215][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.02-14.45.17:216][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.02-14.45.17:224][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.06.02-14.45.17:253][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.06.02-14.45.17:267][377]LogPlayLevel: Display: Destroying online subsystem :Context_76
