@@ -3240,3 +3240,9 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.06.01-14.41.07:935][231]LogSavePackage: Moving 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Saved/WBP_EndofLevelA77CAC004F8CF1DFF9D07994A47E440E.tmp' to 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Content/ThirdPersonBP/UserInterface/EndofLevel/WBP_EndofLevel.uasset'
 [2021.06.01-14.41.07:947][231]AssetCheck: New page: Asset Save: WBP_EndofLevel
 [2021.06.01-14.41.07:947][231]LogContentValidation: Display: Validating WidgetBlueprint /Game/ThirdPersonBP/UserInterface/EndofLevel/WBP_EndofLevel.WBP_EndofLevel
+[2021.06.01-14.54.30:766][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   5.42ms
+[2021.06.01-14.54.30:769][ 45]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.057
+[2021.06.01-14.54.30:769][ 45]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/UserInterface/EndofLevel/WBP_EndofLevel] ([1] browsable assets)...
+[2021.06.01-14.54.30:769][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/UserInterface/EndofLevel/WBP_EndofLevel]
+[2021.06.01-14.54.30:776][ 45]LogSavePackage: Moving 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Saved/WBP_EndofLevel_Auto53564E6A74BE1A7EA287DDA951E490B10.tmp' to 'C:/Users/enthu/Documents/GitHub/Patchas-Big-Adventure-V1.1/Patcha Sumer 2021 UE5/PatchaUE5V2021/Saved/Autosaves/Game/ThirdPersonBP/UserInterface/EndofLevel/WBP_EndofLevel_Auto5.uasset'
+[2021.06.01-14.54.30:777][ 45]LogFileHelpers: Auto-saving content packages took 0.008
