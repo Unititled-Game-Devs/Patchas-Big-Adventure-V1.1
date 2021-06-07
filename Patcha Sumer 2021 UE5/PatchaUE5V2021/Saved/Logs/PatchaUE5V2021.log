@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ﻿Log file open, 06/07/21 17:44:57
+=======
+﻿Log file open, 06/07/21 17:43:38
+>>>>>>> Stashed changes
 =======
 ﻿Log file open, 06/07/21 17:43:38
 >>>>>>> Stashed changes
@@ -15,7 +19,11 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: PatchaUE5V2021
 LogPlatformFile: Not using cached read wrapper
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogStats: Stats thread started at 0.175974
+=======
+LogStats: Stats thread started at 0.182056
+>>>>>>> Stashed changes
 =======
 LogStats: Stats thread started at 0.182056
 >>>>>>> Stashed changes
@@ -27,13 +35,17 @@ LogPluginManager: Mounting plugin XGEController
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin AISupport
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Mounting plugin Paper2D
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 LogPluginManager: Mounting plugin EnvironmentQueryEditor
 LogPluginManager: Mounting plugin CameraShakePreviewer
 LogPluginManager: Mounting plugin AnimationSharing
 LogPluginManager: Mounting plugin CLionSourceCodeAccess
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 LogPluginManager: Mounting plugin AssetManagerEditor
 LogPluginManager: Mounting plugin GameplayCameras
@@ -52,6 +64,8 @@ LogPluginManager: Mounting plugin CurveEditorTools
 LogPluginManager: Mounting plugin DataValidation
 LogPluginManager: Mounting plugin RiderSourceCodeAccess
 =======
+=======
+>>>>>>> Stashed changes
 LogPluginManager: Mounting plugin AlembicImporter
 LogPluginManager: Mounting plugin AutomationUtils
 LogPluginManager: Mounting plugin BackChannel
@@ -68,6 +82,9 @@ LogPluginManager: Mounting plugin CurveEditorTools
 LogPluginManager: Mounting plugin DataValidation
 LogPluginManager: Mounting plugin EditorDebugTools
 LogPluginManager: Mounting plugin Niagara
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 LogPluginManager: Mounting plugin EditorScriptingUtilities
 LogPluginManager: Mounting plugin SubversionSourceControl
@@ -76,6 +93,7 @@ LogPluginManager: Mounting plugin FacialAnimation
 LogPluginManager: Mounting plugin GameplayTagsEditor
 LogPluginManager: Mounting plugin GeometryCache
 LogPluginManager: Mounting plugin GeometryMode
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 LogPluginManager: Mounting plugin UObjectPlugin
 LogPluginManager: Mounting plugin InterchangeEditor
@@ -114,6 +132,15 @@ LogPluginManager: Mounting plugin MaterialAnalyzer
 LogPluginManager: Mounting plugin PluginBrowser
 LogPluginManager: Mounting plugin MobileLauncherProfileWizard
 LogPluginManager: Mounting plugin SpeedTreeImporter
+=======
+LogPluginManager: Mounting plugin InterchangeEditor
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin SpeedTreeImporter
+>>>>>>> Stashed changes
 LogPluginManager: Mounting plugin GitSourceControl
 LogPluginManager: Mounting plugin DatasmithContent
 LogPluginManager: Mounting plugin NullSourceCodeAccess
@@ -184,6 +211,9 @@ LogPluginManager: Mounting plugin LauncherChunkInstaller
 LogPluginManager: Mounting plugin ActorLayerUtilities
 LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
 LogPluginManager: Mounting plugin AndroidMoviePlayer
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 LogPluginManager: Mounting plugin AndroidPermission
 LogPluginManager: Mounting plugin AppleImageUtils
@@ -191,7 +221,10 @@ LogPluginManager: Mounting plugin AppleMoviePlayer
 LogPluginManager: Mounting plugin ArchVisCharacter
 LogPluginManager: Mounting plugin AssetTags
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Mounting plugin AndroidMoviePlayer
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 LogPluginManager: Mounting plugin AudioCapture
@@ -201,6 +234,10 @@ LogPluginManager: Mounting plugin ChunkDownloader
 LogPluginManager: Mounting plugin CustomMeshComponent
 LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+>>>>>>> Stashed changes
 =======
 LogPluginManager: Mounting plugin GoogleCloudMessaging
 >>>>>>> Stashed changes
@@ -212,6 +249,7 @@ LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
 LogPluginManager: Mounting plugin IOSDeviceProfileSelector
 LogPluginManager: Mounting plugin LocationServicesBPLibrary
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogPluginManager: Mounting plugin GoogleCloudMessaging
 LogPluginManager: Mounting plugin MobilePatchingUtils
 LogPluginManager: Mounting plugin ProceduralMeshComponent
@@ -220,6 +258,11 @@ LogPluginManager: Mounting plugin PropertyAccessEditor
 LogPluginManager: Mounting plugin ScreenshotTools
 LogPluginManager: Mounting plugin MobilePatchingUtils
 LogPluginManager: Mounting plugin PropertyAccessEditor
+=======
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PropertyAccessEditor
+>>>>>>> Stashed changes
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SignificanceManager
@@ -235,7 +278,11 @@ LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
 LogPluginManager: Mounting plugin OnlineSubsystemIOS
 LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 LogConfig: Display: Loading platform ini files took 0.16 seconds
+=======
+LogConfig: Display: Loading platform ini files took 0.28 seconds
+>>>>>>> Stashed changes
 =======
 LogConfig: Display: Loading platform ini files took 0.28 seconds
 >>>>>>> Stashed changes
@@ -326,6 +373,7 @@ LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
 LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 [2021.06.07-16.44.58:248][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2021.06.07-16.44.58:248][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
@@ -1612,6 +1660,8 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.06.07-16.45.47:981][275]LogExit: Exiting.
 [2021.06.07-16.45.47:986][275]Log file closed, 06/07/21 17:45:47
 =======
+=======
+>>>>>>> Stashed changes
 [2021.06.07-16.43.38:533][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2021.06.07-16.43.38:533][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2021.06.07-16.43.38:533][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
@@ -2847,4 +2897,7 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.06.07-16.44.07:361][ 37]LogD3D11RHI: CleanupD3DDevice
 [2021.06.07-16.44.07:369][ 37]LogExit: Exiting.
 [2021.06.07-16.44.07:371][ 37]Log file closed, 06/07/21 17:44:07
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
